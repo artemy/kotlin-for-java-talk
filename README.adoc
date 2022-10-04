@@ -1,1 +1,3 @@
 == Kotlin for Java Developers Talk materials
+
+View the slides https://artemy.github.io/kotlin-for-java-talk/[here]
