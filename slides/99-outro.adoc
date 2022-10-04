@@ -11,4 +11,15 @@
 * Kotlin Koans: https://play.kotlinlang.org/koans/overview
 * Introduction to Coroutines by Roman Elizarov: https://www.youtube.com/watch?v=_hfBv0a09Jc
 
+[.columns]
 == Q&A
+
+[.column]
+--
+Repository with the slides: https://github.com/artemy/kotlin-for-java-talk
+--
+
+[.column]
+--
+image::repo-qr.png[]
+--
