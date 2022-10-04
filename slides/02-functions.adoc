@@ -1,0 +1,12 @@
+== Functions
+
+[source,kotlin]
+----
+include::sources/kotlin/functions.kt[tags=functions-1]
+----
+
+[.notes]
+--
+Nothing is used for the return type of function that never returns a value.
+For example, a function with an infinite loop or a function that always throws an exception.
+--

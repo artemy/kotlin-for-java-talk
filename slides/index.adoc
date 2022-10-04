@@ -1,0 +1,44 @@
+= Kotlin for Java Developers
+Artem Makarov <@artemy_m>
+1.0, 2022
+:doctype: book
+:revealjs_theme: white
+:revealjs_width: '100%'
+:revealjs_height: '100%'
+:revealjsdir: https://cdn.jsdelivr.net/npm/reveal.js@4.3.1
+:source-highlighter: highlightjs
+:highlightjs-theme: https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/github.min.css
+:icons: font
+:imagesdir: images
+:title-slide-background-image: codenomads_logo.jpg
+:title-slide-background-size: 20%
+:title-slide-background-repeat: no-repeat
+:title-slide-background-position: 50% 95%
+
+include::00-intro.adoc[]
+
+include::01-mutability.adoc[]
+
+include::02-functions.adoc[]
+
+include::03-nullability-checks.adoc[]
+
+include::04-classes.adoc[]
+
+include::05-objects.adoc[]
+
+include::06-extension-functions.adoc[]
+
+include::07-operator-overloading.adoc[]
+
+include::08-type-aliases.adoc[]
+
+include::09-scope-functions.adoc[]
+
+include::10-functional-programming.adoc[]
+
+include::11-streams.adoc[]
+
+include::12-string-templates.adoc[]
+
+include::99-outro.adoc[]

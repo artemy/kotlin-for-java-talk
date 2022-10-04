@@ -1,0 +1,19 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+    tags:
+      - 'v*'
+
+jobs:
+  build-pdf:
+    runs-on: ubuntu-latest
+    container: asciidoctor/docker-asciidoctor:1.22
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - run: make build
+        name: Build PDF & HTML

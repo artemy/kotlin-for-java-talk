@@ -1,0 +1,44 @@
+== Classes
+
+Classes in Kotlin can have a primary constructor and several secondary constructors
+
+[source,kotlin]
+----
+include::sources/kotlin/classes.kt[tags=classes-2]
+----
+
+WARNING: If the class also has a primary constructor, each secondary constructor needs to delegate to the primary constructor
+
+== Data classes
+
+[source,kotlin]
+----
+include::sources/kotlin/classes.kt[tags=classes-4]
+----
+
+[.notes]
+--
+Compiler will create equals()/hashCode() pair + toString() + copy() function
+Properties declared in a primary constructor can be mutable or immutable and have default values
+--
+
+== Data classes: copy
+
+[source,kotlin]
+----
+include::sources/kotlin/classes.kt[tags=classes-5]
+----
+
+[.notes]
+--
+.copy makes a shallow copy
+--
+
+== Data Classes: Destructuring
+
+When there's a need to return several values from a function, a data class can be used with a destructuring declaration
+
+[source,kotlin]
+----
+include::sources/kotlin/classes.kt[tags=classes-7]
+----

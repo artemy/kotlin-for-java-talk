@@ -1,0 +1,9 @@
+== String templates
+
+[source,kotlin]
+----
+// inside the curly brackets there is a valid Kotlin expression
+val message = "Added ${records.count()} records"
+// no need for curly brackets for simple objects
+val anotherMessage = "Added $recordCount records"
+----

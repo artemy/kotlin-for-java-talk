@@ -1,0 +1,31 @@
+== Extension functions
+
+It is possible to write new functions for a class or an interface without modifying the class itself
+
+[source,kotlin]
+----
+include::sources/kotlin.kt[tags=extensions-1]
+----
+
+== Extension functions: Generics
+
+It is possible to define generic extension functions
+
+[source,kotlin]
+----
+include::sources/kotlin.kt[tags=extensions-2]
+----
+
+== Extension functions: Fields
+
+Kotlin also supports extension properties the same way as functions
+
+[source,kotlin]
+----
+include::sources/kotlin.kt[tags=extensions-3]
+----
+
+[.notes]
+--
+extension properties can't hold values, and it is it not possible to define a setter for an extension property
+--

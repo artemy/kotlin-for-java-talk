@@ -1,0 +1,29 @@
+== Scope Functions
+
+* Kotlin standard library offers several functions for executing code within the context of an object.
+* Within this scope of the function the object can be accessed without using its name (i.e. via `it` or `this`)
+
+[.notes]
+--
+there are several scope functions: let, also, apply, with, run, etc.
+they only differ by what is the return type and how do you access an object within the scope
+--
+
+== Scope Functions: Examples
+
+[source,kotlin]
+----
+include::sources/kotlin/scope_functions.kt[tags=let-nullability]
+----
+
+== Scope Functions: Examples
+
+[source,kotlin]
+----
+include::sources/kotlin/scope_functions.kt[tags=also]
+----
+
+[.notes]
+--
+also returns original object, so you can perform additional operations before returning it, for instance
+--

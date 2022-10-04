@@ -1,0 +1,19 @@
+== Standalone Objects
+
+Objects can also be declared as singletons
+
+[source,kotlin]
+----
+include::sources/kotlin/objects.kt[tags=objects-2]
+----
+
+== Objects: companion
+
+Objects can be declared inside a class using with the `companion` keyword
+
+[source,kotlin]
+----
+include::sources/kotlin/objects.kt[tags=objects-3]
+----
+
+WARNING: companion members are members of object instance, i.e. not really static. To generate them as static, use `@JvmStatic` annotation

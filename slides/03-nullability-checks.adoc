@@ -1,0 +1,25 @@
+== Nullability
+
+Kotlin mandates explicitly defining nullable types with `?` symbol at the end
+
+[source,kotlin]
+----
+include::sources/kotlin/nullability.kt[tags=nullability-1]
+----
+
+== Nullability checks: Elvis operator
+
+[source,kotlin]
+----
+include::sources/kotlin/nullability.kt[tags=nullability-2]
+----
+
+
+== Nullability checks
+
+Kotlin compiler keeps track of nullability checks performed
+
+[source,kotlin]
+----
+include::sources/kotlin/nullability.kt[tags=nullability-3]
+----

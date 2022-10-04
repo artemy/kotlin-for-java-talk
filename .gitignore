@@ -1,0 +1,13 @@
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+# Ruby
+.bundle
+bin
+
+### Asciidoctor ###
+.asciidoctor
+*.html

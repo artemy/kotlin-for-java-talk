@@ -1,0 +1,14 @@
+== Advices
+
+* Try to think about Kotlin as a separate programming language rather than a Java library *
+* Take note of the IntelliJ Warnings and hints :-)
+
+== Recommended reading:
+
+* Kotlin Docs: https://kotlinlang.org/docs/home.html
+* Kotlin Idioms: https://kotlinlang.org/docs/idioms.html
+* Kotlin Coding: https://kotlinlang.org/docs/coding-conventions.html
+* Kotlin Koans: https://play.kotlinlang.org/koans/overview
+* Introduction to Coroutines by Roman Elizarov: https://www.youtube.com/watch?v=_hfBv0a09Jc
+
+== Q&A

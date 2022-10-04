@@ -1,0 +1,17 @@
+== Type aliases
+
+Type aliases are used to provide alternative names for existing types, e.g. when the name is too long
+
+[source,kotlin]
+----
+include::sources/kotlin.kt[tags=typealiases]
+----
+
+== Type aliases
+
+Type alises do not introduce new types, so you can pass a variable of your aliased type whenever general function type is required (and vice versa)
+
+[source,kotlin]
+----
+include::sources/kotlin.kt[tags=typealiases-2]
+----

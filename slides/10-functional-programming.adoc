@@ -1,0 +1,13 @@
+== Functional programming
+
+In Kotlin, functions are first-class, so they can be stored in variables and data structures and passed as arguments and returned from other high-order functions
+
+[source,kotlin]
+----
+include::sources/kotlin/functions.kt[tags=functions-9]
+----
+
+[.notes]
+--
+fold is reduce
+--

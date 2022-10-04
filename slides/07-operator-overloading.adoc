@@ -1,0 +1,24 @@
+== Operator overloading
+
+It is possible to overload predefined operators on types (e.g. +, *, -, etc.)
+
+[source,kotlin]
+----
+include::sources/kotlin.kt[tags=overloading]
+----
+
+== Infix functions
+
+Functions marked with `infix` can be called using the infix notation (without the dot and the parentheses for the call)
+
+[source,kotlin]
+----
+include::sources/kotlin.kt[tags=infix]
+----
+
+[.notes]
+--
+* Member or extension function
+* Have a single parameter
+* Parameter must not allow variable number of arguments and must not have default value
+--

@@ -1,0 +1,8 @@
+== Variable declaration & mutability
+
+Mutability is controlled with `val`/`var` keywords
+
+[source,kotlin]
+----
+include::sources/kotlin.kt[tags=mutability]
+----

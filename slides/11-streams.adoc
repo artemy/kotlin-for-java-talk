@@ -1,0 +1,40 @@
+== Kotlin sequences
+
+Kotlin offers more concise API for dealing with stream-like operations
+
+Java:
+
+[source,java]
+----
+include::sources/Java.java[tags=streams]
+----
+
+Kotlin:
+
+[source,kotlin]
+----
+include::sources/kotlin.kt[tags=sequences]
+----
+
+== Kotlin sequences: Lazyness
+
+Kotlin collection operations are not lazy, like in Java
+
+[source,java]
+----
+include::sources/Java.java[tags=lazyCollection]
+----
+
+[source,kotlin]
+----
+include::sources/kotlin.kt[tags=sequences-lazyness]
+----
+
+== Kotlin sequences: Enforcing Lazyness
+
+Lazy evaluation of sequences can be enforced via using `asSequence()` method
+
+[source,kotlin]
+----
+include::sources/kotlin.kt[tags=sequences-lazyness-2]
+----

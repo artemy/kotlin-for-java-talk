@@ -1,0 +1,68 @@
+[.columns]
+== About me
+
+[.column]
+--
+* *Artem Makarov*
+* Senior Software Developer @ Code Nomads
+* 10 years of software development experience
+* 3 years of Kotlin experience
+* Worked at Financial, Retail and Health industries
+--
+
+[.column]
+image::artem.jpg[Artem Makarov,width=360]
+
+== I am not going to talk about:
+
+* Performance
+* Coroutines
+* Kotlin on Android
+* Kotlin/Native
+
+[.columns]
+== History of Kotlin
+
+[.column]
+--
+* Development started in 2010 at JetBrains
+* Motivation:
+** Java's lack of modern features
+** Scala poor tooling
+--
+
+[.column]
+--
+image::kotlin-island.png[Kotlin island]
+--
+
+== History of Kotlin: Important Milestones
+
+* 2012: code became open source
+* 2016: v1.0 release
+* 2017: Google announces first-class support on Android
+* 2019: Google makes Kotlin preferred language for Android app development
+
+== Kotlin vs Java: What Kotlin doesn't have
+
+* checked exceptions
+* primitive types
+* ternary operator (`x ? a : b`)
+* public fields
+* semicolon line termination
+* `new` keyword
+
+== Kotlin vs Java: What Kotlin has
+
+* data classes*
+* string templates
+* operator overloading
+* trailing lambdas
+* named & default arguments
+* lazy initialization
+* coroutines
+
+[.notes]
+--
+* Records in Java are from version 14
+--
